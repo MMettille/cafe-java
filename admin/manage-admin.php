@@ -22,7 +22,7 @@
                     <td>Mary M</td>
                     <td>maryRocks</td>
                     <td>
-                        <a href="#" class="btn btn-secondary"></a>
+                        <a href="#" class="btn btn-secondary">Update</a>
                         <a href="#" class="btn btn-danger">Delete</a>
                     </td>
                 </tr>
@@ -32,8 +32,8 @@
                     <td>Scott</td>
                     <td>scottRocks</td>
                     <td>
-                        Update
-                        Delete
+                        <a href="#" class="btn btn-secondary">Update</a>
+                        <a href="#" class="btn btn-danger">Delete</a>
                     </td>
                 </tr>
 
@@ -42,8 +42,8 @@
                     <td>Bob</td>
                     <td>bobRocks</td>
                     <td>
-                        Update
-                        Delete
+                        <a href="#" class="btn btn-secondary">Update</a>
+                        <a href="#" class="btn btn-danger">Delete</a>
                     </td>
                 </tr>
             </table>
