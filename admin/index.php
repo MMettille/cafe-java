@@ -7,9 +7,15 @@
 
     <body>
         <! -- Menu Section Starts -->
-        <div class="menu">
+        <div class="menu text-center">
             <div class="wrapper">
-            Menu will go here
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Admin</a></li>
+                    <li><a href="">Category</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Order</a></li>
+                </ul>
             </div>
         </div>
         <! -- Menu Section Ends -->

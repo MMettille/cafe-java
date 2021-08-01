@@ -32,7 +32,27 @@ a{
     text-decoration: none;
     color: black;
 }
-/* CSS for Footer */
-.footer{
-    background-color: ;
+
+/* CSS for Menu */
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    color: #CF9140;
+    font-weight: bold;
+}
+
+.menu ul li a:hover{
+    color: #894E00
+}
+
+/* CSS for Main Content */
+.main-content{
+    margin: 1% 0;
 }
