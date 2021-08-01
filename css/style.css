@@ -76,6 +76,9 @@ h3{
     font-size: 1.5rem;
 }
 
+a {
+    text-decoration: none;
+}
 /* CSS for NavBar */
 .logo{
     width: 10%;
@@ -105,7 +108,6 @@ h3{
 
 .nav-menu ul li a{
     color: #CF9140;
-    text-decoration: none;
     font-weight: bold;
 }
 
@@ -147,7 +149,7 @@ h3{
     padding: 4% 0
 }
 
-.food-menu-item{
+.menu-item{
     width: 43%;
     margin: 1%;
     padding: 2%;
