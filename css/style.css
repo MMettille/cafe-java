@@ -4,6 +4,12 @@
     Version: 1.0
 */
 
+/*
+    Primary Color: #CF9140
+    Secondary Color (Dark): #894E00
+    Version: 1.0
+*/
+
 *{
     margin: 0 0;
     padding: 0 0;
@@ -80,7 +86,7 @@ h3{
     max-height: 100px;
 }
 
-.menu{
+.nav-menu{
     line-height: 100px;
 }
 
@@ -88,22 +94,22 @@ h3{
     text-align: right
 }
 
-.menu ul{
+.nav-menu ul{
     list-style-type: none;
 }
 
-.menu ul li{
+.nav-menu ul li{
     display: inline;
     padding: 1%;
 }
 
-.menu ul li a{
+.nav-menu ul li a{
     color: #CF9140;
     text-decoration: none;
     font-weight: bold;
 }
 
-.menu ul li a:hover{
+.nav-menu ul li a:hover{
     color: #894E00
 }
 
@@ -132,4 +138,19 @@ h3{
     width: 28%;
     float: left;
     margin: 2%
+}
+
+/* CSS for Menu */
+
+.menu {
+    background-color: #ececee;
+    padding: 4% 0
+}
+
+.food-menu-item{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
 }
