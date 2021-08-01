@@ -88,6 +88,14 @@ h3{
 a {
     text-decoration: none;
 }
+
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
 /* CSS for NavBar */
 .logo{
     width: 10%;
