@@ -4,6 +4,13 @@
     Version: 1.0
 */
 
+/*
+    Primary Color: #CF9140
+    Secondary Color (Dark): #894E00
+    Menu-background color: #ececee
+    Menu-text color: #747d8c
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -15,4 +22,17 @@
     padding: 1%;
     width: 80%;
     margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* CSS for Footer */
+.footer{
+    background-color: ;
 }
