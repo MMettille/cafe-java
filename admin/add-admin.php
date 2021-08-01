@@ -39,6 +39,17 @@
                 </form>
             </div>
         </div>
-        <! -- Menu Section Ends -->
+        <! -- Main Content Ends -->
 
-<?php include('partials/footer.php'); ?>    
+<?php include('partials/footer.php'); ?>
+
+<?php
+    // Logic for adding the form to the database
+    
+    // Click listener for the submit button
+    if(isset($_POST['submit']))
+    {
+        // Do this if the button has been clicked
+        echo $full_name = $_POST['full_name'];
+    }
+?>
