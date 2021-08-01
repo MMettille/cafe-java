@@ -40,61 +40,53 @@
     </section>
     <!--Navbar Section Ends-->
 
-    <!--Oder Section Starts-->
+    <!--Order Section Starts-->
     <section class="food-search text-center">
         <div class="container">
             <h2 class="text-center">Fill out this form to confirm your order.</h2>
+
+            <form action="#" class="order">
+                <fieldset>
+                    <legend>Selected Items</legend>
+
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1521494923013-45b9a23a07e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
+                        alt="black coffee sitting on top of coffee beans" class="img-responsive img-curve">
+                    </div>
+    
+                    <div class="menu-description">
+                        <h3>House Roast</h3>
+                        <p class="food-price">$2.50</p>
+
+                        <div class="order-label">Quantity</div>
+                        <input type="number" name="qty" class="input-responsive" value="1" required>
+                        
+                    </div>
+
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="order-label">Full Name</div>
+                    <input type="text" name="full-name" placeholder="E.g. Mary M" class="input-responsive" required>
+
+                    <div class="order-label">Phone Number</div>
+                    <input type="tel" name="contact" placeholder="E.g. 612-383-2655" class="input-responsive" required>
+
+                    <div class="order-label">Email</div>
+                    <input type="email" name="email" placeholder="E.g. javacafe@yum.com" class="input-responsive" required>
+
+                    <div class="order-label">Address</div>
+                    <textarea name="address" rows="4" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
+
+                    <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
+                </fieldset>
+
+            </form>
         </div>
         <div class="clearfix"></div>
     </section>
-    <!--Food Search Section Ends-->
-
-    <!--Order Section Starts-->
-    <section class="categories">
-        <div class="container">
-            <h2 class="text-center">Cart</h2>
-                <form action="#" class="order">
-                    <fieldset>
-                        <legend>Selected Items</legend>
-
-                        <div class="menu-img">
-                            <img src="https://images.unsplash.com/photo-1521494923013-45b9a23a07e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
-                            alt="black coffee sitting on top of coffee beans" class="img-responsive img-curve">
-                        </div>
-        
-                        <div class="menu-description">
-                            <h3>House Roast</h3>
-                            <p class="food-price">$2.50</p>
-
-                            <div class="order-label">Quantity</div>
-                            <input type="number" name="qty" class="input-responsive" value="1" required>
-                            
-                        </div>
-
-                    </fieldset>
-                    
-                    <fieldset>
-                        <legend>Delivery Details</legend>
-                        <div class="order-label">Full Name</div>
-                        <input type="text" name="full-name" placeholder="E.g. Mary M" class="input-responsive" required>
-    
-                        <div class="order-label">Phone Number</div>
-                        <input type="tel" name="contact" placeholder="E.g. 612-383-2655" class="input-responsive" required>
-    
-                        <div class="order-label">Email</div>
-                        <input type="email" name="email" placeholder="E.g. javacafe@yum.com" class="input-responsive" required>
-    
-                        <div class="order-label">Address</div>
-                        <textarea name="address" rows="4" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
-    
-                        <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
-                    </fieldset>
-    
-                </form>
-        </div>
-        <div class="clearfix"></div>
-    </section>
-    <!--Categories Section Ends-->
+    <!--Order Section Ends-->
 
     <!--Social Media Section Starts-->
     <section class="social">
