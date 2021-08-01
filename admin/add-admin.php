@@ -67,11 +67,15 @@
         // Response from server
         if($res==TRUE)
         {
-            echo "Data Inserted";
+            $_SESSION['add'] = "Employee Added Sucessfully";
+            //Redirect Page to admin 
+            header("location:".SITEURL.'/admin/manage-admin.php');
         }
         else
         {
-            echo "Data Insert Failed";
+            $_SESSION['add'] = "Employee Added Sucessfully";
+            //Redirect Page to admin 
+            header("location:".SITEURL.'/admin/add-admin.php');
         }
     }
 ?>
