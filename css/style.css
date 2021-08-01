@@ -44,6 +44,24 @@
     background-color: #894E00;
 }
 
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+.text-white{
+    color: white
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
 /* CSS for NavBar */
 .logo{
     width: 10%;
