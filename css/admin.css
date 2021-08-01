@@ -45,6 +45,30 @@ a{
     width: 100%;
 }
 
+.tbl-30{
+    width: 30%;
+}
+
+.tbl-30 input[type="text"] {
+    padding: 1%;
+    font-size: 1rem;
+    border-radius: 5px;
+
+}
+
+.tbl-30 input[type="password"] {
+    padding: 1%;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.tbl-30 input[type="submit"] {
+    margin-top: 10%;
+    padding: 3%;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
 table tr th{
     border-bottom: 1px solid black;
     padding: 1%;

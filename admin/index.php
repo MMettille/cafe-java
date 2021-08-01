@@ -29,8 +29,8 @@
                     Categories
                 </div>
             </div>
-            <div class="clearfix"></div>
         </div>
+        <div class="clearfix"></div>
         <! -- Menu Section Ends -->
 
 <?php include('partials/footer.php'); ?>    
