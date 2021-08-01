@@ -34,6 +34,16 @@
     border-radius: 5%;
 }
 
+.btn-primary{
+    background-color: #CF9140;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: #894E00;
+}
+
 /* CSS for NavBar */
 .logo{
     width: 10%;
@@ -43,6 +53,7 @@
 .img-logo{
     max-height: 100px;
 }
+
 .menu{
     line-height: 100px;
 }
@@ -84,3 +95,4 @@
     padding: 1%;
     font-size: 1rem;
 }
+
