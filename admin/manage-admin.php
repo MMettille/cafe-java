@@ -7,7 +7,7 @@
                 <br><br><br>
             
                 <! -- Button to add an Employee -->
-                <a href="#" class="btn btn-primary">Add Admin</a>
+                <a href="add-admin.php" class="btn btn-primary">Add Admin</a>
                 <br><br><br>
                 <table class="tbl-full">
                     <tr>
