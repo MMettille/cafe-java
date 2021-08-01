@@ -7,7 +7,8 @@
 /*
     Primary Color: #CF9140
     Secondary Color (Dark): #894E00
-    Version: 1.0
+    Menu-background color: #ececee
+    Menu-text color: #747d8c
 */
 
 *{
@@ -23,6 +24,10 @@
 
 .img-responsive{
     width: 100%;
+}
+
+.img-height{
+    height: 132px
 }
 
 .img-curve{
@@ -155,6 +160,7 @@ a {
     padding: 2%;
     float: left;
     background-color: white;
+    border-radius: 15px;
 }
 
 .menu-img{
@@ -166,4 +172,14 @@ a {
     width: 70%;
     float: left;
     margin-left: 8%
+}
+
+.menu-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.menu-text{
+    font-size: 0.9rem;
+    color: #747d8c
 }
