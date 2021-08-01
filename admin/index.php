@@ -23,7 +23,13 @@
         <! -- Main Content Starts -->
         <div class="main-content">
             <div class="wrapper">
-            Main Content will Go Here
+                <strong>Dashboard</strong>
+
+                <div class="col-4 text-center">
+                    <h1>5</h1>
+                    <br>
+                    Categories
+                </div>
             </div>
         </div>
         <! -- Menu Section Ends -->
