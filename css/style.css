@@ -14,3 +14,11 @@
     margin: 0 auto;
     padding: 1%
 }
+
+.img-responsive{
+    width: 100%;
+}
+/* CSS for NavBar */
+.logo{
+    width: 10%;
+}
