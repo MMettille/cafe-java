@@ -5,8 +5,12 @@
 */
 
 /*
-    Primary Color: #CF9140
-    Secondary Color (Dark): #894E00
+    Primary Color (tan): #CF9140
+    Secondary Color (Dark-brown): #894E00
+    Primary btn- Blue Color: #407ecf
+    Primary btn:hover - Dark Blue Color: #3364A5
+    Secondary btn - Green Color: #71BA39
+    Secondary btn:hover - Dark Green Color: #64A533
     Menu-background color (grey): #ececee
     Menu-text color: #747d8c
     Red: #EC4C4C
@@ -30,7 +34,6 @@
 
 a{
     text-decoration: none;
-    color: black;
 }
 
 .clearfix{
@@ -52,20 +55,34 @@ table tr td{
     padding: 1%;
 }
 
-btn-primary{
-    background-color: #CF9140;
+.btn{
+    color: black;
+    padding: 1%;
+    border-radius: 5px;
 }
 
-btn-primary:hover{
-    background-color: #894E00;
+.btn-primary{
+    background-color: #407ecf;
 }
 
-btn-danger{
+.btn-primary:hover{
+    background-color: #3364A5;
+}
+
+.btn-secondary{
+    background-color: #71BA39;
+}
+
+.btn-secondary:hover{
+    background-color: #64A533;
+}
+
+.btn-danger{
     background-color: #EC4C4C;
 }
 
-btn-danger:hover{
-    background-color: #d44444
+.btn-danger:hover{
+    background-color: #d44444;
 }
 
 /* CSS for Menu */

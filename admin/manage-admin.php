@@ -4,8 +4,11 @@
         <div class="main-content">
             <div class="wrapper">
                 <h1>Manage Employees</h1>
-            </div>
-
+                <br><br><br>
+            
+            <! -- Button to add an Employee -->
+            <a href="#" class="btn btn-primary">Add Admin</a>
+            <br><br><br>
             <table class="tbl-full">
                 <tr>
                     <th>ID</th>
@@ -19,8 +22,8 @@
                     <td>Mary M</td>
                     <td>maryRocks</td>
                     <td>
-                        Update
-                        Delete
+                        <a href="#" class="btn btn-secondary"></a>
+                        <a href="#" class="btn btn-danger">Delete</a>
                     </td>
                 </tr>
 
