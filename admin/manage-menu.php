@@ -7,7 +7,7 @@
 
                 <br><br><br>
             
-                <! -- Button to add an Employee -->
+                <! -- Button to add a Menu Item -->
                 <a href="#" class="btn btn-primary">Add Item</a>
                 <br><br><br>
                 <table class="tbl-full">
