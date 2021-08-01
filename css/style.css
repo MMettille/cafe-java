@@ -48,6 +48,11 @@
 }
 
 .menu ul li a{
-    color: black;
+    color: #CF9140;
     text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul li a:hover{
+    color: #894E00
 }
