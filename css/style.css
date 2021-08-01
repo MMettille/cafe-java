@@ -28,6 +28,11 @@
     text-align: center;
 }
 
+.btn{
+    padding: 1%;
+    border: none;
+}
+
 /* CSS for NavBar */
 .logo{
     width: 10%;
@@ -67,6 +72,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20% 0;
+    padding: 10% 0;
 }
 
