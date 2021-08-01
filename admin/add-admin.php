@@ -61,8 +61,17 @@
             password='$password'
         ";
 
-        // Posting to database
+        // Executing Query
+        $res = mysqli_query($conn, $sql);
 
-        // $res = mysqli_query($conn, $sql);
+        // Response from server
+        if($res==TRUE)
+        {
+            echo "Data Inserted";
+        }
+        else
+        {
+            echo "Data Insert Failed";
+        }
     }
 ?>
