@@ -183,3 +183,13 @@ a {
     font-size: 0.9rem;
     color: #747d8c
 }
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
