@@ -63,10 +63,6 @@
 
         // Posting to database
 
-        //Database connection
-        $conn = mysqli_connect('localhost', 'root', '') or die("Error Posting" . mysqli_error($conn));
-        // Selecting which database to post to
-        $db_select = mysqli_select_db($conn, 'cafe_java') or die("Error Connecting to database" . mysqli_error($conn));
         // $res = mysqli_query($conn, $sql);
     }
 ?>
