@@ -38,24 +38,24 @@ a{
 }
 
 /* CSS for Menu */
-.menu{
+.nav{
     border-bottom: 1px solid grey;
 }
-.menu ul {
+.nav ul {
     list-style-type: none;
 }
 
-.menu ul li{
+.nav ul li{
     display: inline;
     padding: 1%;
 }
 
-.menu ul li a{
+.nav ul li a{
     color: #CF9140;
     font-weight: bold;
 }
 
-.menu ul li a:hover{
+.nav ul li a:hover{
     color: #894E00
 }
 
