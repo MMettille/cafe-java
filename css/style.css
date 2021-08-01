@@ -81,7 +81,7 @@
     color: #894E00
 }
 
-/* CSS for Food Search Class */
+/* CSS for Food Search */
 .food-search{
     background-image: url(https://images.unsplash.com/photo-1541167760496-1628856ab772?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1788&q=80) ;
     background-size: cover;
@@ -97,3 +97,14 @@
     border-radius: 5px;
 }
 
+/* CSS for Food Categories */
+.categories{
+    padding: 3% 0;
+}
+
+.box-3{
+    border: 1px solid black;
+    width: 28%;
+    float: left;
+    margin: 2%
+}
