@@ -18,7 +18,26 @@
 .img-responsive{
     width: 100%;
 }
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
 /* CSS for NavBar */
 .logo{
     width: 10%;
+    float: left;
+}
+
+.nav-right{
+    text-align: right
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline
 }
