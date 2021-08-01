@@ -26,9 +26,9 @@
     width: 100%;
 }
 
-.img-height{
+/* .img-height{
     height: 132px
-}
+} */
 
 .img-curve{
     border-radius: 5%;
@@ -156,6 +156,7 @@ a {
 
 .menu-item{
     width: 43%;
+    height: 150px;
     margin: 1%;
     padding: 2%;
     float: left;
