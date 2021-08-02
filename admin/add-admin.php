@@ -5,7 +5,15 @@
             <div class="wrapper">
                 
                 <h1>Add Employee</h1>
-                <br><br><br>
+                <br>
+                <?php
+                    if(isset($_SESSION['add']))
+                    {
+                        echo $_SESSION['add'];
+                        unset($_SESSION['add']);
+                    }
+                ?>
+                <br><br>
                 <form action="" method="POST">
 
                     <table class="tbl-30">
