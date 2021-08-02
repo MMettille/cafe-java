@@ -15,7 +15,7 @@ Our menu, stylishly displayed!
 ![House Roast - $2.50, Cafe Latte - $4.00, Cappuccino - $4.00, Chocolate Crossiant - $3.50, Blueberry Muffin - $3.50, Avocado Toast - $7.30'](./screenshots/screenshot_menu.png)
 ## Built With
 
-This appliciaton was made in two weeks with these technologies:
+This appliciaton was made with these technologies:
 - PHP
 - mySQL
 - HTML
